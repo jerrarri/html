@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <div class="container">
+        <h2>회원가입</h2>
+        <!-- <form action="url자리" method="POST"></form> -->
+        <form action="데이터보낼 url자리" method="get">
+            <div>
+                <label for="userid">아이디</label>
+                <input type="text" id="userid" name="id자리" placeholder="ID 입력" value="default id">
+            </div>
+            <div>
+                <label for="userid">비밀번호</label>
+                <input type="password" name="password" placeholder="비번입력">
+            </div>
+            <div>
+                <label for="genderr">성별</label>
+                    <select name="gender" id="genderr">
+                        <option value="여자">여자</option>
+                        <option value="남자">남자</option>
+                    </select>
+            </div>
+            <div>
+                <label for="genderr">성별</label>
+                    <select name="gender" id="genderr">
+                        <option value="여자">여자</option>
+                        <option value="남자">남자</option>
+                    </select>
+            </div>
+            <div>
+                <label for="info" id="info">자기소개</label>
+                    <textarea id="info" cols="20" rows="30" placeholder="자기소개를 입력하세요"></textarea>
+            </div>
+            <button type="submit">제출</button>
+            <button type="reset">리셋</button>
+        </form>
+    </div>
+    
+</body>
+</html>
